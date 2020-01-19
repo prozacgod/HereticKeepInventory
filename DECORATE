@@ -1,0 +1,50 @@
+actor ArtiEggKeeper : ArtiEgg replaces ArtiEgg {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiFlyKeeper : ArtiFly replaces ArtiFly {
+    -INVENTORY.INTERHUBSTRIP
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiHealthKeeper : ArtiHealth replaces ArtiHealth {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiInvisibilityKeeper : ArtiInvisibility replaces ArtiInvisibility {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiInvulnerabilityKeeper : ArtiInvulnerability replaces ArtiInvulnerability {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiSuperHealthKeeper : ArtiSuperHealth replaces ArtiSuperHealth {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiTeleportKeeper : ArtiTeleport replaces ArtiTeleport {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiTimeBombKeeper : ArtiTimeBomb replaces ArtiTimeBomb {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiTomeOfPowerKeeper : ArtiTomeOfPower replaces ArtiTomeOfPower {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
+
+actor ArtiTorchKeeper : ArtiTorch replaces ArtiTorch {
+    Inventory.MaxAmount 0x7FFFFFFF
+    Inventory.InterHubAmount 0x7FFFFFFF
+}
